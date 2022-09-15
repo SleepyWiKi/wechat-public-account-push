@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wx6e4a6ecdfdb7d7ba",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "cc688e617f306317a5975ada84ebd97e",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -23,75 +23,97 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "WiKi Wake UPPPPPPP",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oLh6w6rBzqLeY8wQezqYucf8_Y-c",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "LkBkmKvnSpwRsKaFIgVZFIfEE8VrTOWT70AjBIVvhbQ",
       // 所在省份
-      province: "广东",
+      province: "贵州",
       // 所在城市
-      city: "肇庆",
+      city: "贵阳",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '04-24',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "https://weibo.com/newlogin?tabtype=weibo&gid=102803&url=https%3A%2F%2Fweibo.com%2F",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        //{"type": "*生日", "name": "WiKi", "year": "1997", "date": "04-24"},
+        //{"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+        {"type": " *生日", "name": "年纪轻轻才华横溢的WiKi", "year": "1997", "date": "04-24"},
+        {"type": "节日", "name": "春节", "year": "2023", "date": "01-22"},
+        //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
-        // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
+        // 生日倒计时
+        {"keyword": "birth_day", date: "1997-04-24"},
         // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
+        //{"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+        //{"keyword": "ex_day", date: "2022-09-10"},
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      name: "刘韧",
+      id: "oLh6w6j8Ff9lIHYPDFjU-34fponc",
+      useTemplateId: "LkBkmKvnSpwRsKaFIgVZFIfEE8VrTOWT70AjBIVvhbQ",
+      province: "贵州",
+      city: "贵阳",
+      horoscopeDate: '08-18',
+      horoscopeDateType: '今日',
+      openUrl: "https://weibo.com/newlogin?tabtype=weibo&gid=102803&url=https%3A%2F%2Fweibo.com%2F",
+      festivals: [
+        {"type": "*生日", "name": "刘韧", "year": "1995", "date": "08-18"},
+        {"type": "节日", "name": "春节", "year": "2023", "date": "01-22"},
+      ],
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2021-01-24"},
+        {"keyword": "birth_day", date: "1995-08-18"},
+      ]
     },
     {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      name: "王俊",
+      id: "oLh6w6l2ekfhi_FY0Wp6dHrkvn6w",
+      useTemplateId: "LkBkmKvnSpwRsKaFIgVZFIfEE8VrTOWT70AjBIVvhbQ",
+      province: "贵州",
+      city: "贵阳",
+      horoscopeDate: '02-04',
+      horoscopeDateType: '今日',
+      openUrl: "https://weibo.com/newlogin?tabtype=weibo&gid=102803&url=https%3A%2F%2Fweibo.com%2F",
+      festivals: [
+        {"type": "*生日", "name": "王俊", "year": "1997", "date": "02-04"},
+        {"type": "节日", "name": "春节", "year": "2023", "date": "01-22"},
+      ],
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2012-09-20"},
+        {"keyword": "birth_day", date: "1997-02-04"},
+      ]
     },
     {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      name: "邹雪梅",
+      id: "oLh6w6mrFDUKnqsqbkrHKPv_IXeo",
+      useTemplateId: "LkBkmKvnSpwRsKaFIgVZFIfEE8VrTOWT70AjBIVvhbQ",
+      province: "贵州",
+      city: "贵阳",
+      horoscopeDate: '11-25',
+      horoscopeDateType: '今日',
+      openUrl: "https://weibo.com/newlogin?tabtype=weibo&gid=102803&url=https%3A%2F%2Fweibo.com%2F",
+      festivals: [
+        {"type": "*生日", "name": "邹雪梅", "year": "1996", "date": "11-25"},
+        {"type": "节日", "name": "春节", "year": "2023", "date": "01-22"},
+      ],
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2012-09-20"},
+        {"keyword": "birth_day", date: "1997-11-25"},
+      ]
     },
     // 你可以不断按格式往下增加
     // ...
@@ -102,15 +124,15 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "BkogGRyUMY8UKwoU2f9kbE5UzeR5zW_7smekkoZ-C6g",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "自己",
+      name: "WiKi",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oLh6w6rBzqLeY8wQezqYucf8_Y-c",
     },
     // 你可以不断按格式往下增加
     // ...
@@ -123,9 +145,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "贵州",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "贵阳",
 
   /** 重要节日相关 */
 
@@ -162,7 +184,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
