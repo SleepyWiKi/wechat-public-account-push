@@ -37,8 +37,8 @@ export const TYPE_LIST = [
 export const DEFAULT_OUTPUT = {
   noteEn: `Nothing in this world that's worth having comes easy.`,
   noteCh: '这世界上凡是值得拥有的东西，都不易获得。',
-  oneTalk: '愿你遍布祖国山河，觉得人生也值得',
-  talkFrom: '晓良',
+  oneTalk: '都是废话',
+  talkFrom: '一个艺术大家',
   earthyLoveWords: '我今晚会很忙，忙着跟你过日子',
   momentCopyrighting: '错过太阳就不要再错过月亮了',
   poisonChickenSoup: '我从不以强凌弱，我欺负他之前，真不晓得他比我弱。',
@@ -52,7 +52,7 @@ export const DEFAULT_OUTPUT = {
   minTemperature: '想你的温度℃',
   windDirection: '朝向你',
   windScale: '100级哦',
-  holidaytts: '嘿嘿，今天不告诉你~'
+  holidaytts: '想都别想，还差得远呢！'
 }
 
 export const CITY_INFO = {
